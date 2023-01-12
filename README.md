@@ -20,12 +20,12 @@ topo_nav.rviz
 9. Execute the "grapes_bunch_detector.py" under /catkin_ws/src/project_thorvald/scripts
 
 
-To test with the obstacle
-1. Change "config folder" to "config_org" and "config_obstacle to config"
+To test with the obstacle:
+
 Execute the below in different terminals after source them as instructed the previous execution
-2. "roslaunch bacchus_gazebo vineyard_demo.launch world_name:=vineyard_small launch_move_base:=false"
-3. "roslaunch project_thorvald move_base.launch"
-4. "roslaunch project_thorvald topo_nav.launch"
-5. Place a obstacle on the path to test
+1. "roslaunch bacchus_gazebo vineyard_demo.launch world_name:=vineyard_small launch_move_base:=false"
+2. "roslaunch project_thorvald move_base.launch"
+3. "roslaunch project_thorvald topo_nav.launch"
+4. Place a obstacle on the path to test
 5. Run the python script "grapes_bunch_detector.py" under script folder
 
