@@ -11,7 +11,7 @@ To run the package:
 2. Mount and create a new source folder into it
    "cd catkin_ws", "mkdir src"
 3. Move the project_thorvald package inside the src folder or perform "git clone https://github.com/rufussam/Project_thorvald.git" in the terminal
-4. Exceute catkin make from /catkin_ws
+4. Execute catkin_make from /catkin_ws
 5. Now please source it to this package by giving "cd devel" and "source setup.bash"
 6. Perform "roslaunch bacchus_gazebo vineyard_demo.launch world_name:=vineyard_small"
 7. Execute "roslaunch project_thorvald topo_nav.launch" in another terminal
